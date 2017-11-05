@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45F99A511FAED0BD0028A35C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F99A501FAED0BD0028A35C /* AppDelegate.swift */; };
+		45F99A531FAED0BD0028A35C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F99A521FAED0BD0028A35C /* ViewController.swift */; };
+		45F99A561FAED0BD0028A35C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F99A541FAED0BD0028A35C /* Main.storyboard */; };
+		45F99A591FAED0BD0028A35C /* SusCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45F99A571FAED0BD0028A35C /* SusCalendar.xcdatamodeld */; };
+		45F99A5B1FAED0BD0028A35C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F99A5A1FAED0BD0028A35C /* Assets.xcassets */; };
+		45F99A5E1FAED0BD0028A35C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F99A5C1FAED0BD0028A35C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45F99A4D1FAED0BD0028A35C /* SusCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SusCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F99A501FAED0BD0028A35C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45F99A521FAED0BD0028A35C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45F99A551FAED0BD0028A35C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45F99A581FAED0BD0028A35C /* SusCalendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SusCalendar.xcdatamodel; sourceTree = "<group>"; };
+		45F99A5A1FAED0BD0028A35C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45F99A5D1FAED0BD0028A35C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45F99A5F1FAED0BD0028A35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45F99A4A1FAED0BD0028A35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F99A441FAED0BD0028A35C = {
+			isa = PBXGroup;
+			children = (
+				45F99A4F1FAED0BD0028A35C /* SusCalendar */,
+				45F99A4E1FAED0BD0028A35C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45F99A4E1FAED0BD0028A35C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45F99A4D1FAED0BD0028A35C /* SusCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45F99A4F1FAED0BD0028A35C /* SusCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				45F99A501FAED0BD0028A35C /* AppDelegate.swift */,
+				45F99A521FAED0BD0028A35C /* ViewController.swift */,
+				45F99A541FAED0BD0028A35C /* Main.storyboard */,
+				45F99A5A1FAED0BD0028A35C /* Assets.xcassets */,
+				45F99A5C1FAED0BD0028A35C /* LaunchScreen.storyboard */,
+				45F99A5F1FAED0BD0028A35C /* Info.plist */,
+				45F99A571FAED0BD0028A35C /* SusCalendar.xcdatamodeld */,
+			);
+			path = SusCalendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45F99A4C1FAED0BD0028A35C /* SusCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F99A621FAED0BD0028A35C /* Build configuration list for PBXNativeTarget "SusCalendar" */;
+			buildPhases = (
+				45F99A491FAED0BD0028A35C /* Sources */,
+				45F99A4A1FAED0BD0028A35C /* Frameworks */,
+				45F99A4B1FAED0BD0028A35C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SusCalendar;
+			productName = SusCalendar;
+			productReference = 45F99A4D1FAED0BD0028A35C /* SusCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45F99A451FAED0BD0028A35C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Built;
+				TargetAttributes = {
+					45F99A4C1FAED0BD0028A35C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 45F99A481FAED0BD0028A35C /* Build configuration list for PBXProject "SusCalendar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45F99A441FAED0BD0028A35C;
+			productRefGroup = 45F99A4E1FAED0BD0028A35C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45F99A4C1FAED0BD0028A35C /* SusCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45F99A4B1FAED0BD0028A35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F99A5E1FAED0BD0028A35C /* LaunchScreen.storyboard in Resources */,
+				45F99A5B1FAED0BD0028A35C /* Assets.xcassets in Resources */,
+				45F99A561FAED0BD0028A35C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45F99A491FAED0BD0028A35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F99A531FAED0BD0028A35C /* ViewController.swift in Sources */,
+				45F99A511FAED0BD0028A35C /* AppDelegate.swift in Sources */,
+				45F99A591FAED0BD0028A35C /* SusCalendar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45F99A541FAED0BD0028A35C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F99A551FAED0BD0028A35C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45F99A5C1FAED0BD0028A35C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F99A5D1FAED0BD0028A35C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45F99A601FAED0BD0028A35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45F99A611FAED0BD0028A35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45F99A631FAED0BD0028A35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4GDC7G56X;
+				INFOPLIST_FILE = SusCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisdavid.SusCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45F99A641FAED0BD0028A35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4GDC7G56X;
+				INFOPLIST_FILE = SusCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisdavid.SusCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45F99A481FAED0BD0028A35C /* Build configuration list for PBXProject "SusCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F99A601FAED0BD0028A35C /* Debug */,
+				45F99A611FAED0BD0028A35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F99A621FAED0BD0028A35C /* Build configuration list for PBXNativeTarget "SusCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F99A631FAED0BD0028A35C /* Debug */,
+				45F99A641FAED0BD0028A35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45F99A571FAED0BD0028A35C /* SusCalendar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45F99A581FAED0BD0028A35C /* SusCalendar.xcdatamodel */,
+			);
+			currentVersion = 45F99A581FAED0BD0028A35C /* SusCalendar.xcdatamodel */;
+			path = SusCalendar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45F99A451FAED0BD0028A35C /* Project object */;
+}
